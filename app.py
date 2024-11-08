@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/sample")
 def srij():
-    return jsonify([{'id': 1, 'username': 'Alice'}], status = 200)
+    return jsonify([{'id': 1, 'username': 'Alice'}])
 
 if __name__ == "__main__":
     app.run(host = "0.0.0.0", port = 5000)
